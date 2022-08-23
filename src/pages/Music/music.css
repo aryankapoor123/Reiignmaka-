@@ -1,0 +1,28 @@
+.music{
+    background: url('../../../public/section1.jpeg') no-repeat bottom center;
+    background-size: cover;
+}
+
+.music main{
+    padding: 15% 5%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+@media screen and (max-width: 980px) {
+    #root .root {
+        margin-top: 11rem;
+    }
+
+    .music main{
+        padding-top: 50%;
+        justify-content: center;
+    }
+
+    .Footer_footer__kXlYa {
+        margin-top: 1rem;
+    }
+
+}
+

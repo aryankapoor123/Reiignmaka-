@@ -1,0 +1,31 @@
+.emailInput__input{
+    width: 60%;
+    height: 16px;
+    border-radius: 0!important;
+    background-color: #000!important;
+    color: #cccccc;
+    font-size: inherit;
+    padding: 1em 1em 1em 1em!important;
+    border: 2px solid #fff!important;
+}
+
+
+.emailInput__btn{
+    width: 20%;
+    border-radius: 0;
+    background-color: #fff;
+    color: #000;
+    font-size: inherit;
+    padding: 1em 0.1em 1em 0.1em;
+    border: 2px solid #fff;
+    cursor: pointer;
+    transition: all .2s ease-in-out;
+}
+
+.emailInput__btn:hover{
+    opacity: 0.5;
+}
+
+.emailInput__input:focus{
+    outline: 0px;
+}

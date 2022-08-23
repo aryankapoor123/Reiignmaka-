@@ -1,0 +1,14 @@
+.content{
+    margin-top: 8%;
+  }
+  
+.mask img{
+  z-index: 1;
+    position: relative;
+    top: -60px;
+    width: 100%;
+}
+  
+  
+  
+  

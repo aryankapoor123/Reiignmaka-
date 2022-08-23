@@ -1,0 +1,23 @@
+.root{
+    font-size: 1.2rem;
+    padding:25px;
+    background-image: url('../../../public/button.jpeg');
+    background-position: center;
+    background-blend-mode: normal;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 14vw;
+    transition: ease-in-out 300ms;
+}
+
+.root:hover{
+    opacity: 0.5;
+}
+
+@media screen and (max-width: 950px){
+    .root{
+        min-width: 22vw;
+    }
+}

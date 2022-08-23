@@ -1,0 +1,40 @@
+.infoSection{
+    padding: 6rem 2rem 2rem 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+    top: -50px;
+    background: url('../../../public/section1.jpeg') no-repeat bottom center;
+}
+
+.infoSection__text{
+    line-height: 30px;
+    width: 40%;
+    font-size: 22px;
+    color: #cccccc;
+    display: grid;
+    place-items: center;
+    text-align: center;
+    padding: 3rem 2rem 2rem 2rem;
+
+}
+
+@media screen and (max-width: 950px){
+    .infoSection {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .infoSection__text {
+        font-size: 1.5rem;
+        width: 90%;
+        letter-spacing: .3rem;
+        margin-bottom: 2rem;
+    }
+
+    .infoSection a {
+        margin-bottom: 2rem;
+    }
+}
+  

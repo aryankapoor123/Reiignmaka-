@@ -1,0 +1,23 @@
+.video main{
+    padding: 15% 5%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.video{
+    background: url('../../../public/section1.jpeg') no-repeat bottom center;
+    background-size: cover;
+}
+
+.video main iframe {
+    padding: 1rem;
+}
+
+@media screen and (max-width: 1000px) {
+    .video main {
+        padding-top: 50%;
+        justify-content: center;
+    }
+
+}
