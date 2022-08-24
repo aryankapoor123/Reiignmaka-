@@ -43,11 +43,11 @@ export default function Footer() {
         <h4 className={styles.footer__heading}>
           Keep in touch with Reiignmaka
         </h4>
-        <p>Fill in your email and get the latest news</p>
-        <EmailInput />
+        <p>Address - (studio)</p>
+        <p>3201 Washington Ave #413 Newport News VA 23607</p>
       </span>
       <span style={{ marginTop: "5%",textAlign:'center' }}>
-        Copyright © reiignmaka.com
+        Copyright © reiignmaka.com - Design by <a style={{color:'white'}} href="mailto:avikapoor7777@gmail.com">Avi Kapoor</a>
       </span>
     </footer>
   );
