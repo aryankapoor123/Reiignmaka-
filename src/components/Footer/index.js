@@ -1,5 +1,4 @@
 import React from "react";
-import EmailInput from "../EmailInput";
 import styles from "./Footer.module.css";
 
 export default function Footer() {
